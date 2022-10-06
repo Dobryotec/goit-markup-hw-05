@@ -59,11 +59,10 @@ body {
 .flex-container {
   display: flex;
   align-items: center;
-
 }
 
 .contacts-wrap {
-  margin-left:  auto;
+  margin-left: auto;
 }
 .adress-link {
   display: flex;
@@ -109,10 +108,10 @@ body {
 }
 
 .current::after {
-  content: '';
+  content: "";
   position: absolute;
-  bottom:-29px;
-  left:0;
+  bottom: -29px;
+  left: 0;
   width: 100%;
   height: 4px;
   background-color: var(--accent-color);
@@ -137,13 +136,12 @@ body {
 }
 .mail {
   margin-right: 50px;
-
 }
 
 .list-link:hover,
-.list-link:focus{
+.list-link:focus {
   color: var(--accent-color);
-} 
+}
 .mail-icon {
   fill: currentColor;
   margin-right: 10px;
@@ -151,10 +149,10 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-link:hover>svg,
-.list-link:focus>svg {
+.list-link:hover > svg,
+.list-link:focus > svg {
   fill: var(--accent-color);
-} 
+}
 .list-link-icon {
   fill: currentColor;
   margin-right: 10px;
@@ -167,16 +165,18 @@ body {
 .hero {
   background-color: #2f303a;
   max-width: 1600px;
-  height:600px;
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  
-  
 }
 .hero .title {
   font-weight: 900;
@@ -206,7 +206,8 @@ body {
   padding: 10px 32px 10px 32px;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -234,7 +235,7 @@ body {
 .icon-wrap {
   width: 270px;
   height: 120px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -249,7 +250,7 @@ body {
   display: flex;
 }
 .section-item {
-  flex-basis: calc((100%-90px)/4);
+  flex-basis: calc((100%-90px) / 4);
 }
 .section-item:not(:first-child) {
   margin-left: 30px;
@@ -290,7 +291,7 @@ body {
 .work-item {
   position: relative;
 }
-.works{
+.works {
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -301,16 +302,11 @@ body {
   align-items: center;
 }
 .works-item {
-font-weight: 700;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: rgba(255, 255, 255, 1);
-
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
 }
-
-
-
-
 
 .workers {
   background-color: #f5f4fa;
@@ -319,13 +315,13 @@ color: rgba(255, 255, 255, 1);
 }
 .workers-item {
   background-color: var(--background-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .workers-item:not(:first-child) {
   margin-left: 30px;
- 
 }
 
 .workers .subtitle {
@@ -348,16 +344,14 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
   margin-top: 16px;
   margin-bottom: 30px;
-
 }
 .social-item {
   list-style: none;
   width: 44px;
   height: 44px;
-  
 }
 .social-icon {
-  fill:#AFB1B8;
+  fill: #afb1b8;
 }
 
 .social-item:not(:first-child) {
@@ -370,16 +364,18 @@ border-radius: 0px 0px 4px 4px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: #AFB1B8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-icon { 
+.social-icon {
   fill: currentColor;
 }
-.social-link:hover, .social-link:focus {
-  background-color: var(--accent-color); 
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
   color: var(--background-color);
-} 
+}
 /* .social-link:hover, .social-link:focus {
   background-color: var(--accent-color);
 }
@@ -404,10 +400,12 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: #AFB1B8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-item {
   width: 170px;
@@ -416,7 +414,7 @@ border-radius: 0px 0px 4px 4px;
 .customers-icon {
   fill: currentColor;
 }
-.customers-link:hover, 
+.customers-link:hover,
 .customers-link:focus {
   background-color: var(--background-color);
   color: var(--accent-color);
@@ -450,7 +448,9 @@ border-radius: 0px 0px 4px 4px;
   border-radius: 4px;
   border-color: transparent;
   padding: 6px 22px 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-secondary:hover,
@@ -458,20 +458,19 @@ border-radius: 0px 0px 4px 4px;
   background-color: var(--accent-color);
   color: var(--secondary-title-color);
   cursor: pointer;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-link {
   text-decoration: none;
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
 .portfolio-wrapper {
   position: relative;
   overflow: hidden;
-  
 }
- 
+
 .portfolio-text {
   font-size: 18px;
   line-height: 1.56;
@@ -488,22 +487,21 @@ border-radius: 0px 0px 4px 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:hover, 
+.portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-work {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .portfolio-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  
 }
 .portfolio-item:hover .portfolio-text,
 .portfolio-item:focus .portfolio-text {
@@ -536,8 +534,6 @@ border-radius: 0px 0px 4px 4px;
   color: var(--primary-text-color);
   max-width: 322px;
 }
-
-
 
 /*--------------------------------------------------------footer----------------------------------------*/
 
@@ -590,22 +586,22 @@ border-radius: 0px 0px 4px 4px;
 .link-adress:focus {
   color: var(--accent-color);
 }
-.footer-wrap>.subtitle-text {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color:var(--background-color);
-margin-bottom: 20px;
+.footer-wrap > .subtitle-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin-bottom: 20px;
 }
 .social-list-footer {
   display: flex;
   list-style: none;
 }
- .footer-wrap { 
+.footer-wrap {
   margin-left: 70px;
-} 
+}
 .footer-container {
   display: flex;
   align-items: baseline;
@@ -619,8 +615,8 @@ margin-bottom: 20px;
   align-items: center;
   justify-content: center;
   color: var(--background-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon-footer {
   fill: currentColor;
@@ -628,7 +624,7 @@ margin-bottom: 20px;
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--accent-color);
-  color:var(--background-color);
+  color: var(--background-color);
 }
 .social-item-footer {
   width: 44px;
@@ -638,7 +634,6 @@ margin-bottom: 20px;
   margin-left: 10px;
 }
 
-
 /*--------------------------------------------Backdrop--------------------------------------------*/
 .backdrop {
   position: fixed;
@@ -647,37 +642,47 @@ margin-bottom: 20px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
-width: 528px;
-height: 581px;
-background-color: var(--background-color);
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  width: 528px;
+  min-height: 581px;
+  background-color: var(--background-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close {
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.close-button {
   position: absolute;
   width: 30px;
   height: 30px;
-  fill: rgba(0, 0, 0, 1);
-  padding: 10px;
-  background-color: var(--background-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   top: 8px;
   right: 8px;
   cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--background-color);
+}
+.icon-close {
+  fill: rgba(0, 0, 0, 1);
+  padding: 5px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close:hover {
+
+.close-button:hover .icon-close {
   fill: var(--accent-color);
 }
- .is-hidden {
+.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}  
+}
